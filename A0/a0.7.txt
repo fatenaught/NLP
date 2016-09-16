@@ -1,0 +1,1 @@
+For OOV words such as NOTHINGBURGER or CRONUT, we can use n-grams to add the words to current vocabulary, to an unknown class maybe, and compare the pronunciations (vowels and consonants) to gets their rhymes.

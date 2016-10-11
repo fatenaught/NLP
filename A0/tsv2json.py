@@ -16,6 +16,7 @@ cmudict = collections.OrderedDict()
 
 #open file and read in 
 with open('cmudict.tsv') as tsvfile: #path
+#with open('cmudict.tsv', encoding='utf-8', errors='ignore') as tsvfile: #path
     csvData = csv.reader(tsvfile, delimiter = '\t') #readin
     for row in csvData:
         dictraw.append(row)

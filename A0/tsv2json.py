@@ -1,5 +1,4 @@
 #!/usr/bin/env python
-# -*- coding: utf-8 -*- 
 
 '''
 ENLP A0.4
@@ -15,8 +14,9 @@ dictraw = []
 cmudict = collections.OrderedDict()
 
 #open file and read in 
-with open('cmudict.tsv') as tsvfile: #path
-#with open('cmudict.tsv', encoding='utf-8', errors='ignore') as tsvfile: #path
+#with open('cmudict.tsv') as tsvfile: #path
+#with open('cmudict.tsv') as tsvfile: #path
+with open('cmudict.tsv', encoding='utf-8', errors='ignore') as tsvfile: #path
     csvData = csv.reader(tsvfile, delimiter = '\t') #readin
     for row in csvData:
         dictraw.append(row)
